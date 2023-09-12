@@ -4,7 +4,7 @@ import Blog from "../Blog/Blog";
 import PropTypes from 'prop-types';
 
 
-const Blogs = ({handleWorkBookmark}) => {
+const Blogs = ({handleWorkBookmark, handlemarkIsRead}) => {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
     fetch('blog.json')
@@ -20,6 +20,7 @@ const Blogs = ({handleWorkBookmark}) => {
           key={blog.id}
           blog={blog}
           handleWorkBookmark={handleWorkBookmark}
+          handlemarkIsRead={handlemarkIsRead}
         ></Blog>)
       }
     </div>
@@ -27,7 +28,8 @@ const Blogs = ({handleWorkBookmark}) => {
 };
 
 Blogs.propTypes = {
-  handleWorkBookmark:PropTypes.func
+  handleWorkBookmark: PropTypes.func,
+  handlemarkIsRead: PropTypes.func
 }
 
 export default Blogs;
