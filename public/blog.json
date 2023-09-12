@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://example.com/book1.jpg",
+    "title": "Fake Book Title 1",
+    "author": "John Doe",
+    "author_img": "https://i.ibb.co/nBFqtFg/side-view-business-man-writing-agenda.jpg",
+    "posted_date": "2023-09-12",
+    "reading_time": 120,
+    "hashtags": ["fiction", "bestseller", "adventure"]
+  },
+  {
+    "id": 2,
+    "cover": "https://i.ibb.co/HYZqmps/top-view-workspace-with-laptop-notebook.jpg",
+    "title": "Fake Book Title 2",
+    "author": "Jane Smith",
+    "author_img": "https://i.ibb.co/KsWf6K4/young-learner.jpg",
+    "posted_date": "2023-09-11",
+    "reading_time": 90,
+    "hashtags": ["mystery", "thriller"]
+  },
+  {
+    "id": 3,
+    "cover": "https://i.ibb.co/k0tg90S/262-digital-marketing-facebook-cover-page-template.jpg",
+    "title": "Fake Book Title 3",
+    "author": "Alice Johnson",
+    "author_img": "https://i.ibb.co/TMLbLwD/pretty-curly-young-woman-writing-notes-startup-project.jpg",
+    "posted_date": "2023-09-10",
+    "reading_time": 180,
+    "hashtags": ["romance", "drama", "love"]
+  },
+  {
+    "id": 4,
+    "cover": "https://i.ibb.co/FgjX4J4/top-view-laptop-glasses-with-copy-space.jpg",
+    "title": "Fake Book Title 4",
+    "author": "Robert Wilson",
+    "author_img": "https://i.ibb.co/nBFqtFg/side-view-business-man-writing-agenda.jpg",
+    "posted_date": "2023-09-09",
+    "reading_time": 150,
+    "hashtags": ["science fiction", "space"]
+  },
+  {
+    "id": 5,
+    "cover": "https://i.ibb.co/vjwHHqM/4539542.jpg",
+    "title": "Fake Book Title 5",
+    "author": "Ella Brown",
+    "author_img": "https://i.ibb.co/KsWf6K4/young-learner.jpg",
+    "posted_date": "2023-09-08",
+    "reading_time": 60,
+    "hashtags": ["comedy", "humor"]
+  }
+]
